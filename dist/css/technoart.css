@@ -472,27 +472,14 @@ li {
 .has-sidebar-left,
 .has-sidebar-right {
   position: relative;
-  transition: margin .2s ease-out, background-image .2s ease-out;
+  transition: left .4s ease-out, right .4s ease-out, background-image .2s ease-out;
 }
 
-.hide-left-always {
-  margin-left: -240px;
-}
-
-.hide-right-always {
-  margin-right: -240px;
-}
-
-.hide-left-always > .sidebar-left,
-.hide-right-always > .sidebar-right {
-  display: none;
-}
-
-.has-sidebar-left > .page-wrapper {
+.has-sidebar-left:not(.hide-left-always) > .page-wrapper {
   margin-left: 240px;
 }
 
-.has-sidebar-right > .page-wrapper {
+.has-sidebar-right:not(.hide-right-always) > .page-wrapper {
   margin-right: 240px;
 }
 
@@ -522,20 +509,15 @@ li {
   overflow-y: auto;
 }
 
+.hide-left-always > .sidebar-left,
+.hide-right-always > .sidebar-right {
+  display: none;
+}
+
 @media (max-width: 767px) {
-  .hide-left-always {
-    margin-left: 0;
-  }
-  .hide-right-always {
-    margin-right: 0;
-  }
-  .hide-left-always > .sidebar-left,
-  .hide-right-always > .sidebar-right {
-    display: block;
-  }
   .hide-left::after,
   .hide-right::after {
-    position: absolute;
+    position: fixed;
     top: 0;
     z-index: 4;
     width: 100%;
@@ -550,11 +532,20 @@ li {
   .hide-right::after {
     right: 0;
   }
-  .has-sidebar-left > .page-wrapper {
+  .has-sidebar-left:not(.hide-left-always) > .page-wrapper {
     margin-left: 0;
   }
-  .has-sidebar-right > .page-wrapper {
+  .has-sidebar-right:not(.hide-right-always) > .page-wrapper {
     margin-right: 0;
+  }
+  .sidebar-left,
+  .sidebar-right {
+    position: fixed;
+    height: 100vh;
+  }
+  .hide-left-always > .sidebar-left,
+  .hide-right-always > .sidebar-right {
+    display: block;
   }
   .sidebar-left {
     left: -240px;
