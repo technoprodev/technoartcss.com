@@ -81,7 +81,7 @@ Start a new project with 50<sup>+</sup> choices of clean and professional [Demo 
 
 ## Support Us
 
-We are happy to make Technoart completely free to use. However, the amount of effort needed to maintain and develop new features for the project is not sustainable without proper financial backing. Kindly support Technoart development by clicking [Support Us](https://technoartcss.com/support).
+We are happy to make Technoart completely free to use. However, the amount of effort needed to maintain and develop new features for the project is not sustainable without proper financial backing. Kindly support Technoart development by clicking [Support Us](https://technoartcss.com/#).
 
 ## Contributing
 

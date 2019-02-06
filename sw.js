@@ -345,79 +345,79 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "demo/admin/index.html",
-    "revision": "29b144023432c2fbfbbd557a67baf54b"
+    "revision": "adefd633cdfdf30fa5718dc457ff95e5"
   },
   {
     "url": "demo/general/about-us-1/index.html",
-    "revision": "281fc28b05b0d7f4302c5f47e6b96993"
+    "revision": "1f3ad92914f77bb248142ad467ecc0a4"
   },
   {
     "url": "demo/general/about-us-2/index.html",
-    "revision": "0ed54c2d1014c3d1f463eff5e3e83fed"
+    "revision": "5b73facb1df3b05e3fff7d0cd8e429ce"
   },
   {
     "url": "demo/general/cheatsheet/index.html",
-    "revision": "4494dea155544beafb1ba25eb691c0d3"
+    "revision": "e8107ed6eab91a096466b79d6d82d764"
   },
   {
     "url": "demo/general/faq-1/index.html",
-    "revision": "2969e9867ba54f326d0d8e66fcf0e5e1"
+    "revision": "17f108ac7a2fbee7422a8e739522e052"
   },
   {
     "url": "demo/general/faq-2/index.html",
-    "revision": "4f3784c0c3a60743f42df09d917160dd"
+    "revision": "381fd2c23bc3066a328abbae0ced1494"
   },
   {
     "url": "demo/general/home-2/index.html",
-    "revision": "fb015105835cab41fe2fe8d69b509ec8"
+    "revision": "4a2de920f29b39df5906a7bd9283afbe"
   },
   {
     "url": "demo/general/home-3/index.html",
-    "revision": "bafcb8ec03c76baad50dab0e99729382"
+    "revision": "5077046f28c9db3fad68e07b505be5f3"
   },
   {
     "url": "demo/general/home-4/index.html",
-    "revision": "e60454a9815adfae10f438274cef5e18"
+    "revision": "44350b2ac3448ccec1c0d0d4afde69de"
   },
   {
     "url": "demo/general/home-5/index.html",
-    "revision": "a2009523738e7e5609357e6224201569"
+    "revision": "56a0da426a915ee66aca1252a6925ea8"
   },
   {
     "url": "demo/general/index.html",
-    "revision": "f574708db3febc52826875f710c7ad78"
+    "revision": "e013cc14aed0fa4e825c79f952390a1a"
   },
   {
     "url": "demo/general/our-team-1/index.html",
-    "revision": "a77f26838aef80cfeeb80d653be6fa3f"
+    "revision": "24ac1de93ae1ae5bfada5a0b530c8273"
   },
   {
     "url": "demo/general/portfolio-1/index.html",
-    "revision": "5f9045b3132fef4a013f17ce21d985b2"
+    "revision": "4fd8940535fa6616627fcb71d0a606c7"
   },
   {
     "url": "demo/general/portfolio-2/index.html",
-    "revision": "6356bc06d49bc595e5f686b7fd17a326"
+    "revision": "f49b058062455bcc16701aaa9b93171d"
   },
   {
     "url": "demo/general/pricing-1/index.html",
-    "revision": "f36115f94656ac04dd832da73a9e420f"
+    "revision": "5a192a5431d35b356fcc83f6626b0223"
   },
   {
     "url": "demo/general/pricing-2/index.html",
-    "revision": "d4f7d5de5937d5730f37315d6fc63cad"
+    "revision": "91b22c22ad3d19e74702f5de3b328986"
   },
   {
     "url": "demo/general/service-1/index.html",
-    "revision": "094fdef4a84556154030ab4c36f4a675"
+    "revision": "92845643b58cee38d72649e17e8958a6"
   },
   {
     "url": "demo/general/service-2/index.html",
-    "revision": "16d50c82620e123d593ec67d5d3e3f08"
+    "revision": "f9ee5476a06c13cc41f3c74432b2d5a4"
   },
   {
     "url": "demo/index.html",
-    "revision": "10f62174efba67ba14ccb913538e9953"
+    "revision": "ad9d7151ab6be3bc2b8bd6475b86e9c9"
   },
   {
     "url": "dist/css/technoart.css",
@@ -437,99 +437,99 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "guide/index.html",
-    "revision": "623862beed1cc551c5a9c22d9c734700"
+    "revision": "5e5c6617414a6d21268afb7140a92930"
   },
   {
     "url": "id/demo/admin/index.html",
-    "revision": "325da7bac3e5d3478b6888e9b71543fa"
+    "revision": "0561912c5ca92e206f2d857e796fd323"
   },
   {
     "url": "id/demo/general/about-us-1/index.html",
-    "revision": "f0d5d4c74b69f68e5f6333330bbfe5aa"
+    "revision": "6834115a431c1869d3f53eea04106fe6"
   },
   {
     "url": "id/demo/general/about-us-2/index.html",
-    "revision": "80a0fc98cb8667cf22da5c0c44af5c01"
+    "revision": "08565e68084719cad85811a7000de770"
   },
   {
     "url": "id/demo/general/cheatsheet/index.html",
-    "revision": "39e9e5315758c17d300d24f55ffc2ec8"
+    "revision": "fe0a412d0df5129a8565be3e0c455f35"
   },
   {
     "url": "id/demo/general/faq-1/index.html",
-    "revision": "66f565e0a73c7b2b48396faeaa74c2a2"
+    "revision": "ea7048a36f223bd57cc8cc49252c95a3"
   },
   {
     "url": "id/demo/general/faq-2/index.html",
-    "revision": "b5b87b8a3b719b1e636be9c094c13ce2"
+    "revision": "8397c474a6a0bc71dd2a9ec06d42661e"
   },
   {
     "url": "id/demo/general/home-2/index.html",
-    "revision": "61b3c90bdad10b14ba0605c0a3890112"
+    "revision": "4d7c3ff156290e0b45b54d40e75ff1b4"
   },
   {
     "url": "id/demo/general/home-3/index.html",
-    "revision": "66b5b6939f8302d16819f1fa3e5990a8"
+    "revision": "c81a147573af0d2b3e300c3d985e26c1"
   },
   {
     "url": "id/demo/general/home-4/index.html",
-    "revision": "7e2e857b211d5c3e4c0f6cbce3c20ce5"
+    "revision": "df48fa6ab7609161dcf380b34afcb8ef"
   },
   {
     "url": "id/demo/general/home-5/index.html",
-    "revision": "df988baec57774de034ba8b0d615d833"
+    "revision": "a8be29120092a63310cd71c32c487e89"
   },
   {
     "url": "id/demo/general/index.html",
-    "revision": "5c3a8b5e99cb1ec270015dac11e42679"
+    "revision": "8f309f62c3c94d31294c86a8521f3415"
   },
   {
     "url": "id/demo/general/our-team-1/index.html",
-    "revision": "d51db2e7ce1548e04fe2e2fdff9cdac5"
+    "revision": "d4297f66474d991848ef5b8767bfc4f6"
   },
   {
     "url": "id/demo/general/portfolio-1/index.html",
-    "revision": "7eba6f4757e6c83273e62dcc390a3955"
+    "revision": "2eb333042ef0641238b21cd9913fd5d1"
   },
   {
     "url": "id/demo/general/portfolio-2/index.html",
-    "revision": "5089e308e5e854803c136b6240c4ff19"
+    "revision": "ee27783ab5c2f189b81d1161cbea7eff"
   },
   {
     "url": "id/demo/general/pricing-1/index.html",
-    "revision": "cd971951fac40142ef96d9de4ecee0a8"
+    "revision": "f6dd9280ad36d38c5a81c7c913bf072b"
   },
   {
     "url": "id/demo/general/pricing-2/index.html",
-    "revision": "dbd924cf85ac42797a1f627454a9a5ed"
+    "revision": "09e5d1664e02e0084b5cabc8d29130b9"
   },
   {
     "url": "id/demo/general/service-1/index.html",
-    "revision": "e3a0779d6b1c1106437581941e54b7e3"
+    "revision": "e61a2a4480e93b4f0783d9f9767069dd"
   },
   {
     "url": "id/demo/general/service-2/index.html",
-    "revision": "b1ca56fa304233d2a232a823217cdabe"
+    "revision": "7ff2e21856db40611e9a0a59d102102c"
   },
   {
     "url": "id/demo/index.html",
-    "revision": "81ae18145d088e1ba551bd4a726f5621"
+    "revision": "8b112a6ee560100968389fb96be274c0"
   },
   {
     "url": "id/guide/index.html",
-    "revision": "64e933a0dae750b230cd1462e983391c"
+    "revision": "2b508bd94834dcdab5e04ad626f15050"
   },
   {
     "url": "id/index.html",
-    "revision": "902933b0deec30340582cbaa2b169f48"
+    "revision": "f3bc269455c7204a4fe216efefbfa271"
   },
   {
     "url": "id/support/index.html",
-    "revision": "b2a21c067a6ab1954f487e8035ce4a2f"
+    "revision": "a2c77b365b2fb5127526ca40716c1ab9"
   },
   {
     "url": "index.html",
-    "revision": "d26dfa701e3dcb7365cbdc0102ebbf61"
+    "revision": "262945502a2b686c47e8eb07123c6dd4"
   },
   {
     "url": "redirects.json",
@@ -537,6 +537,6 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "support/index.html",
-    "revision": "2823b1dcac7d34f88c67646a82016994"
+    "revision": "d273eb740b406a224b351daaffa940a5"
   }
 ])
