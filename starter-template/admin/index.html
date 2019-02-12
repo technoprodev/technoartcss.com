@@ -11,9 +11,7 @@
 
 <title>Starter Template - Technoart</title>
 
-
-  <link href="/dist/css/technoart.css" rel="stylesheet">
-
+<link href="/dist/css/technoart.min.css" rel="stylesheet">
 
   <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/img/favicons/apple-touch-icon-57x57.png" />
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/favicons/apple-touch-icon-114x114.png" />
@@ -95,61 +93,20 @@
 
 
       <div class="body has-sidebar-left">
+        <div class="sidebar-overlay" technoart-toggle=".has-sidebar-left" technoart-toggleclasses="hide-left"></div>
+
         <aside class="sidebar-left border-right border-lighter" technoart-fixedonscroll="bg-lightest">
-          <div class="fixed-scroll">
-  <div class="margin-top-30"></div>
-  <div class="padding-x-20 text-uppercase text-dark">Admin</div>
-  <div class="margin-top-5"></div>
-  <ul class="menu-y text-grayer menu-space-y-10
-    menu-hover-bg-lighter
-      submenu-hover-bg-lighter
-    menu-active-bg-light-blue menu-active-bold
-      submenu-active-bg-light-blue"
-    >
-    <li>
-      <a href="/starter-template/admin"><i class="fa fa-ellipsis-v margin-right-10"></i>Home</a>
-    </li>
-    <li>
-      <a href="/starter-template/admin/home-dark"><i class="fa fa-ellipsis-v margin-right-10"></i>Home Dark</a>
-    </li>
-    <li>
-      <a href="/starter-template/admin/user-profile"><i class="fa fa-ellipsis-v margin-right-10"></i>User Profile</a>
-    </li>
-    <li>
-      <a href="/starter-template/admin/inbox"><i class="fa fa-ellipsis-v margin-right-10"></i>Inbox</a>
-    </li>
-    <li>
-      <a href="/starter-template/admin/invoice"><i class="fa fa-ellipsis-v margin-right-10"></i>Invoice</a>
-    </li>
-    <li>
-      <a href="/starter-template/admin/pricing"><i class="fa fa-ellipsis-v margin-right-10"></i>Pricing</a>
-    </li>
-    <li>
-      <a href="/starter-template/admin/login"><i class="fa fa-ellipsis-v margin-right-10"></i>Login</a>
-    </li>
-    <li>
-      <a href="/starter-template/admin/register"><i class="fa fa-ellipsis-v margin-right-10"></i>Register</a>
-    </li>
-  </ul>
+          
 
-  <div class="margin-top-30"></div>
-  <div class="padding-x-20 text-uppercase text-dark">Other</div>
-  <div class="margin-top-5"></div>
-  <ul class="menu-y text-grayer menu-space-y-10
-    menu-hover-bg-lighter
-      submenu-hover-bg-lighter
-    menu-active-bg-light-blue menu-active-bold
-      submenu-active-bg-light-blue"
-    >
-    <li>
-      <a href="/starter-template/general"><i class="fa fa-ellipsis-v margin-right-10"></i>General</a>
-    </li>
-    <li>
-      <a href="/starter-template/email"><i class="fa fa-ellipsis-v margin-right-10"></i>Email</a>
-    </li>
-  </ul>
+<div class="margin-top-20"></div>
 
-</div>
+<ul class="menu-y visible-sm-less fs-14 menu-space-y-10
+  menu-hover-bg-lighter menu-hover-text-azure menu-active-bg-light menu-active-text-azure
+  submenu-hover-bg-lighter submenu-hover-text-azure submenu-active-bg-lightest submenu-active-text-azure">
+  <li class=""><a href="/"><i class="fa fa-caret-right margin-right-30"></i>Home</a></li>
+  <li class=""><a href="/guide/"><i class="fa fa-caret-right margin-right-30"></i>Guide</a></li>
+  <li class=""><a href="/starter-template/"><i class="fa fa-caret-right margin-right-30"></i>Starter Template</a></li>
+</ul><div class="margin-top-30"></div>
 
         </aside>
 
@@ -625,7 +582,7 @@
               <div class="box box-gutter">
                 <div class="box-3">
                   <!-- <span class="circle-icon fs-16 bg-azure border-transparent">AC</span> -->
-                  <img alt="Technoart starter-template" style="width: 38px; height: 38px;" src="/assets/img/male1.jpg" class="circle border-transparent">
+                  <img alt="Technoart starter-template" style="width: 38px; height: 38px;" src="/assets/img/m1.jpg" class="circle border-transparent">
                 </div>
                 <div class="box-9 padding-left-10">
                   <div class="fs-14 text-grayest">
@@ -675,7 +632,7 @@
               <div class="box box-gutter">
                 <div class="box-3">
                   <span class="circle-icon fs-16 bg-magenta border-transparent">AS</span>
-                  <!-- <img alt="Technoart starter-template" style="width: 38px; height: 38px;" src="/assets/img/male1.jpg" class="circle border-transparent"> -->
+                  <!-- <img alt="Technoart starter-template" style="width: 38px; height: 38px;" src="/assets/img/m1.jpg" class="circle border-transparent"> -->
                 </div>
                 <div class="box-9 padding-left-10">
                   <div class="fs-14 text-grayest">
@@ -725,7 +682,7 @@
               <div class="box box-gutter">
                 <div class="box-3">
                   <span class="circle-icon fs-16 bg-rose border-transparent">EM</span>
-                  <!-- <img alt="Technoart starter-template" style="width: 38px; height: 38px;" src="/assets/img/male1.jpg" class="circle border-transparent"> -->
+                  <!-- <img alt="Technoart starter-template" style="width: 38px; height: 38px;" src="/assets/img/m1.jpg" class="circle border-transparent"> -->
                 </div>
                 <div class="box-9 padding-left-10">
                   <div class="fs-14 text-grayest">
@@ -775,7 +732,7 @@
               <div class="box box-gutter">
                 <div class="box-3">
                   <!-- <span class="circle-icon fs-16 bg-azure border-transparent">AC</span> -->
-                  <img alt="Technoart starter-template" style="width: 38px; height: 38px;" src="/assets/img/female1.jpg" class="circle border-transparent">
+                  <img alt="Technoart starter-template" style="width: 38px; height: 38px;" src="/assets/img/f1.jpg" class="circle border-transparent">
                 </div>
                 <div class="box-9 padding-left-10">
                   <div class="fs-14 text-grayest">
@@ -825,7 +782,7 @@
               <div class="box box-gutter">
                 <div class="box-3">
                   <span class="circle-icon fs-16 bg-yellow border-transparent">KL</span>
-                  <!-- <img alt="Technoart starter-template" style="width: 38px; height: 38px;" src="/assets/img/male1.jpg" class="circle border-transparent"> -->
+                  <!-- <img alt="Technoart starter-template" style="width: 38px; height: 38px;" src="/assets/img/m1.jpg" class="circle border-transparent"> -->
                 </div>
                 <div class="box-9 padding-left-10">
                   <div class="fs-14 text-grayest">
@@ -875,7 +832,7 @@
               <div class="box box-gutter">
                 <div class="box-3">
                   <span class="circle-icon fs-16 bg-cyan border-transparent">RA</span>
-                  <!-- <img alt="Technoart starter-template" style="width: 38px; height: 38px;" src="/assets/img/male1.jpg" class="circle border-transparent"> -->
+                  <!-- <img alt="Technoart starter-template" style="width: 38px; height: 38px;" src="/assets/img/m1.jpg" class="circle border-transparent"> -->
                 </div>
                 <div class="box-9 padding-left-10">
                   <div class="fs-14 text-grayest">
@@ -925,7 +882,7 @@
               <div class="box box-gutter">
                 <div class="box-3">
                   <!-- <span class="circle-icon fs-16 bg-azure border-transparent">AC</span> -->
-                  <img alt="Technoart starter-template" style="width: 38px; height: 38px;" src="/assets/img/male2.jpg" class="circle border-transparent">
+                  <img alt="Technoart starter-template" style="width: 38px; height: 38px;" src="/assets/img/m2.jpg" class="circle border-transparent">
                 </div>
                 <div class="box-9 padding-left-10">
                   <div class="fs-14 text-grayest">
@@ -975,7 +932,7 @@
               <div class="box box-gutter">
                 <div class="box-3">
                   <!-- <span class="circle-icon fs-16 bg-azure border-transparent">AC</span> -->
-                  <img alt="Technoart starter-template" style="width: 38px; height: 38px;" src="/assets/img/male1.jpg" class="circle border-transparent">
+                  <img alt="Technoart starter-template" style="width: 38px; height: 38px;" src="/assets/img/m1.jpg" class="circle border-transparent">
                 </div>
                 <div class="box-9 padding-left-10">
                   <div class="fs-14 text-grayest">
@@ -1025,7 +982,7 @@
               <div class="box box-gutter">
                 <div class="box-3">
                   <span class="circle-icon fs-16 bg-violet border-transparent">AM</span>
-                  <!-- <img alt="Technoart starter-template" style="width: 38px; height: 38px;" src="/assets/img/male1.jpg" class="circle border-transparent"> -->
+                  <!-- <img alt="Technoart starter-template" style="width: 38px; height: 38px;" src="/assets/img/m1.jpg" class="circle border-transparent"> -->
                 </div>
                 <div class="box-9 padding-left-10">
                   <div class="fs-14 text-grayest">
@@ -1075,7 +1032,7 @@
               <div class="box box-gutter">
                 <div class="box-3">
                   <span class="circle-icon fs-16 bg-blue border-transparent">IS</span>
-                  <!-- <img alt="Technoart starter-template" style="width: 38px; height: 38px;" src="/assets/img/male1.jpg" class="circle border-transparent"> -->
+                  <!-- <img alt="Technoart starter-template" style="width: 38px; height: 38px;" src="/assets/img/m1.jpg" class="circle border-transparent"> -->
                 </div>
                 <div class="box-9 padding-left-10">
                   <div class="fs-14 text-grayest">
@@ -1131,7 +1088,8 @@
     <div technoart-backtotop="" class="bg-lighter fs-13 border-azure text-center text-azure rounded-xs padding-y-10" style="width:40px; height:40px;">▲</div>
 
 
-    <script src="/dist/js/technoart.js"></script>
+    <script src="/dist/js/technoart.min.js"></script>
+
     <script src="/assets/vendor/chart.js/Chart.bundle.min.js"></script>
   </body>
 </html>

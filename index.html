@@ -11,9 +11,7 @@
 
 <title>Homepage - Technoart</title>
 
-
-  <link href="/dist/css/technoart.css" rel="stylesheet">
-
+<link href="/dist/css/technoart.min.css" rel="stylesheet">
 
   <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/img/favicons/apple-touch-icon-57x57.png" />
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/favicons/apple-touch-icon-114x114.png" />
@@ -50,7 +48,13 @@
   <div class="header-right padding-x-30 bg-azure clearfix">
     <div class="pull-left padding-top-15 fs-20">
       
-      <span>No More Custom CSS</span>
+      <span>
+        No More Custom CSS
+        
+        
+        
+        
+      </span>
     </div>
     <ul class="pull-right menu-x menu-space-y-20 fs-14
       menu-hover-bg-lighter menu-hover-text-azure menu-active-bg-lightest menu-active-text-azure
@@ -85,7 +89,7 @@
       
       
       
-      <!--  -->
+      
     </span>
     <div class="pull-right">
       <img alt="Technoart logo" src="/assets/img/technoart.png" style="width: 32px; height: auto; margin-top: -5px;">
@@ -103,13 +107,11 @@
 <div class="margin-top-20"></div>
 
 <ul class="menu-y visible-sm-less fs-14 menu-space-y-10
-  menu-hover-bg-lighter menu-hover-text-azure menu-active-bg-light menu-active-text-dark
+  menu-hover-bg-lighter menu-hover-text-azure menu-active-bg-light menu-active-text-azure
   submenu-hover-bg-lighter submenu-hover-text-azure submenu-active-bg-lightest submenu-active-text-azure">
   <li class="active"><a href="/"><i class="fa fa-caret-right margin-right-30"></i>Home</a></li>
   <li class=""><a href="/guide/"><i class="fa fa-caret-right margin-right-30"></i>Guide</a></li>
   <li class=""><a href="/starter-template/"><i class="fa fa-caret-right margin-right-30"></i>Starter Template</a></li>
-  <li class=""><a href="/gallery/"><i class="fa fa-caret-right margin-right-30"></i>Gallery</a></li>
-  <li class=""><a href="/support/"><i class="fa fa-caret-right margin-right-30"></i>Support</a></li>
 </ul><div class="margin-top-30"></div>
 
         </aside>
@@ -195,7 +197,7 @@ h2 {
         </div>
       </div>
     </a>
-    <a href="https://technoartcss.com/starter-template" class="box-6 padding-20 shadow-bottom-right bg-azure hover-bg-lightest hover-text-azure hover-border-azure rounded-xs">
+    <a href="https://technoartcss.com/guide" class="box-6 padding-20 shadow-bottom-right bg-azure hover-bg-lightest hover-text-azure hover-border-azure rounded-xs">
       <div class="clearfix text-left">
         <div class="pull-left circle-icon border-none bg-light-azure margin-right-20 fs-22"><i class="fa fa-book"></i></div>
         <div class="pull-left">
@@ -280,7 +282,7 @@ h2 {
 <span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;head&gt;</span>
     <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1, shrink-to-fit=no"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no"</span><span class="nt">&gt;</span>
 
     <span class="c">&lt;!-- technoart css --&gt;</span>
     <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://cdn.jsdelivr.net/npm/technoart@0.0.9/dist/css/technoart.min.css"</span><span class="nt">&gt;</span>
@@ -310,7 +312,9 @@ h2 {
 │   └── technoart.min.css.map
 └── js/
     ├── technoart.js
-    └── technoart.min.js
+    ├── technoart.js.map
+    ├── technoart.min.js
+    └── technoart.min.js.map
 </code></pre></div>  </div>
 
   <h2 id="definitive-guide">Definitive Guide</h2>
@@ -330,7 +334,7 @@ h2 {
   <p>Get updates on Technoart’s development and interact with community members.</p>
 
   <ul>
-    <li>Watch our <a href="https://github.com/technoprodev/technoart">repo</a> on github.</li>
+    <li>Watch our repo hosted on <a href="https://github.com/technoprodev/technoart">Github</a>.</li>
     <li>Follow us on <a href="https://instagram.com/technoartcss">Instagram</a> for beautiful gallery.</li>
     <li>Follow us on <a href="https://twitter.com/technoartcss">Twitter</a> for Technoart updates.</li>
     <li>Get help on <a href="https://stackoverflow.com/questions/tagged/technoart">Stack Overflow</a> with <code class="highlighter-rouge">technoart</code> tag.</li>
@@ -370,5 +374,6 @@ h2 {
 
     <div technoart-backtotop="" class="bg-lighter fs-13 border-azure text-center text-azure rounded-xs padding-y-10" style="width:40px; height:40px;">▲</div>
 
-    <script src="/dist/js/technoart.js"></script></body>
+    <script src="/dist/js/technoart.min.js"></script>
+</body>
 </html>

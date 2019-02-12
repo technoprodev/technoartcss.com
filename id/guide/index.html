@@ -11,9 +11,7 @@
 
 <title>Definitive Guide - Technoart</title>
 
-
-  <link href="/dist/css/technoart.css" rel="stylesheet">
-
+<link href="/dist/css/technoart.min.css" rel="stylesheet">
 
   <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/img/favicons/apple-touch-icon-57x57.png" />
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/img/favicons/apple-touch-icon-114x114.png" />
@@ -50,7 +48,13 @@
   <div class="header-right padding-x-30 bg-azure clearfix">
     <div class="pull-left padding-top-15 fs-20">
       
-      <span>No More Custom CSS</span>
+      <span>
+        
+        Learning Technoart is Easy
+        
+        
+        
+      </span>
     </div>
     <ul class="pull-right menu-x menu-space-y-20 fs-14
       menu-hover-bg-lighter menu-hover-text-azure menu-active-bg-lightest menu-active-text-azure
@@ -85,7 +89,7 @@
       Panduan Technoart
       
       
-      <!--  -->
+      
     </span>
     <div class="pull-right">
       <img alt="Technoart logo" src="/assets/img/technoart.png" style="width: 32px; height: auto; margin-top: -5px;">
@@ -103,34 +107,24 @@
 <div class="margin-top-20"></div>
 
 <ul class="menu-y visible-sm-less fs-14 menu-space-y-10
-  menu-hover-bg-lighter menu-hover-text-azure menu-active-bg-light menu-active-text-dark
+  menu-hover-bg-lighter menu-hover-text-azure menu-active-bg-light menu-active-text-azure
   submenu-hover-bg-lighter submenu-hover-text-azure submenu-active-bg-lightest submenu-active-text-azure">
   <li class=""><a href="/id/"><i class="fa fa-caret-right margin-right-30"></i>Beranda</a></li>
   <li class="active"><a href="/id/guide/"><i class="fa fa-caret-right margin-right-30"></i>Panduan</a></li>
   <li class=""><a href="/id/starter-template/"><i class="fa fa-caret-right margin-right-30"></i>Starter Template</a></li>
-  <li class=""><a href="/id/gallery/"><i class="fa fa-caret-right margin-right-30"></i>Galeri</a></li>
-  <li class=""><a href="/id/support/"><i class="fa fa-caret-right margin-right-30"></i>Donasi</a></li>
 </ul><hr class="visible-sm-less">
 
 <div class="h5 text-azure padding-x-20">Definitive Guide</div>
 
-<ul class="menu-y
+<ul id="guide" class="menu-y
   menu-hover-bg-lighter menu-hover-text-azure menu-active-bg-lightest menu-active-text-azure
   submenu-hover-bg-lighter submenu-hover-text-azure submenu-active-bg-lightest submenu-active-text-azure">
   <li class="has-submenu"><a href="#introduction">Introduction</a>
     <ul>
       <li><a href="#what-is-technoart">What is Technoart</a></li>
+      <li><a href="#installation">Installation</a></li>
       <li><a href="#minimum-setup">Minimum Setup</a></li>
-      <li class="has-submenu"><a href="#other-installation-methods">Other Installation Methods</a>
-        <ul>
-          <li><a href="#cdn">CDN</a></li>
-          <li><a href="#download">Download</a></li>
-          <li><a href="#npm">npm</a></li>
-          <li><a href="#rubygems">RubyGems</a></li>
-          <li><a href="#composer">Composer</a></li>
-          <li><a href="#nuget">NuGet</a></li>
-        </ul>
-      </li>
+      <li><a href="#assets-structure">Assets Structure</a></li>
     </ul>
   </li>
   <li class="has-submenu"><a href="#grid-or-box">Grid or Box</a>
@@ -233,7 +227,7 @@
 
         <div class="page-wrapper">
           <div class="padding-x-80 m-padding-x-20 padding-y-30" style="width: 900px; max-width: 100%;">
-  <h1 id="technoart">Technoart</h1>
+  <h1 id="introduction">Introduction</h1>
 
   <p><strong>No more custom CSS</strong> - All in one CSS framework for developing clean, professional &amp; responsive web app.</p>
 
@@ -267,7 +261,7 @@
 <span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;head&gt;</span>
     <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1, shrink-to-fit=no"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no"</span><span class="nt">&gt;</span>
 
     <span class="c">&lt;!-- technoart css --&gt;</span>
     <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://cdn.jsdelivr.net/npm/technoart@0.0.9/dist/css/technoart.min.css"</span><span class="nt">&gt;</span>
@@ -297,7 +291,9 @@
 │   └── technoart.min.css.map
 └── js/
     ├── technoart.js
-    └── technoart.min.js
+    ├── technoart.js.map
+    ├── technoart.min.js
+    └── technoart.min.js.map
 </code></pre></div>  </div>
 
   <div class="margin-top-100"></div>
@@ -6343,19 +6339,6 @@
         
         
         <tr>
-          <td class=""><div class="xxx"><h1>h1 Heading</h1></div></td>
-          <td class="padding-0 has-positioned-child">
-            <div class="top-right fs-10 text-light-orange padding-x-10 padding-y-2 hover-pointer copy" title="Copy to clipboard">
-              Copy
-            </div>
-            <pre data-language="html" class="yyy margin-0 padding-10 scroll-x"></pre>
-          </td>
-        </tr>
-      
-        
-        
-        
-        <tr>
           <td class=""><div class="xxx"><h2>h2 Heading</h2></div></td>
           <td class="padding-0 has-positioned-child">
             <div class="top-right fs-10 text-light-orange padding-x-10 padding-y-2 hover-pointer copy" title="Copy to clipboard">
@@ -10862,10 +10845,11 @@
 
     <div technoart-backtotop="" class="bg-lighter fs-13 border-azure text-center text-azure rounded-xs padding-y-10" style="width:40px; height:40px;">▲</div>
 
-    <script src="/dist/js/technoart.js"></script><script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
-      <script src="/assets/vendor/anchorjs/anchor.min.js"></script>
-      <script src="/assets/vendor/clipboard.js/clipboard.min.js"></script><script src="/assets/js/src/application.js"></script>
-        <script src="/assets/js/src/pwa.js"></script><script src="/assets/vendor/rainbow/js/rainbow.min.js"></script>
+    <script src="/dist/js/technoart.min.js"></script>
+<script src="/assets/vendor/anchorjs/anchor.min.js"></script>
+      <script src="/assets/vendor/clipboard.js/clipboard.min.js"></script>
+      <script src="/assets/js/docs.min.js"></script>
+      <script src="/assets/vendor/rainbow/js/rainbow.min.js"></script>
       <script src="/assets/vendor/rainbow/js/language/html.js"></script>
       <script src="/assets/vendor/rainbow/js/language/shell.js"></script></body>
 </html>
