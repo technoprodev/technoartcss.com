@@ -9,7 +9,7 @@
 <meta name="keywords" content="css, sass, js, all-in-one, framework, clean, professional, responsive, web, app, simple, reliable, no-dependencies">
 <meta name="generator" content="Jekyll v3.8.5">
 
-<title>Starter Template - Technoart</title>
+<title>Home - Technoart</title>
 
 <link href="/dist/css/technoart.min.css" rel="stylesheet">
 
@@ -36,15 +36,14 @@
 
     <link href="/assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   </head>
-  <body class="ff-open-san">
+  <body>
     <div class="wrapper">
-      <header class="header visible-sm-greater border-bottom border-lighter">
-  <div class="header-left padding-x-20 padding-top-10 clearfix">
-    <a href="" class="a-nocolor">
+      <header class="header visible-sm-greater border-bottom border-lighter" technoart-fixedonscroll="bg-lightest">
+  <div class="header-left padding-top-10 padding-x-20 clearfix">
+    <a href="/" class="a-nocolor">
       <img alt="Technoart logo" src="/assets/img/technoart.png" class="text-middle" style="width: auto; height: 38px;">
       <span class="margin-left-5 fs-18 text-azure text-middle">Technoart</span>
     </a>
-    <div class="pull-right fs-20 text-azure padding-top-5" data-toggle="sidebar-left"><div class="padding-top-2">&#9776;</div></div>
   </div>
   <div class="header-right padding-x-30 clearfix">
     <div class="pull-left padding-top-15">
@@ -54,39 +53,23 @@
       </div>
     </div>
     <ul class="pull-right menu-x menu-space-y-20 fs-14
-        menu-hover-bg-lighter">
-        <!-- <li class="has-submenu align-right"><a href="">Menu 1</a>
-          <ul class="border-top border-azure border-thin">
-            <li><a href="">Menu 1</a></li>
-            <li class="has-submenu"><a href="">Menu 2</a>
-              <ul class="border-top border-azure border-thin">
-                <li class="activ3"><a href="">Menu 1</a></li>
-                <li><a href="">Menu 2</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li> -->
-        <li class=""><a href="/">Home</a></li>
-        <li class=""><a href="/guide/">Guide</a></li>
-        <li class=""><a href="/starter-template/">Starter Template</a></li>
-        <li class=""><a href="/gallery/">Gallery</a></li>
-        <li class=""><a href="/support/">Support</a></li>
+      menu-hover-bg-lighter menu-hover-text-azure menu-active-bg-lightest menu-active-text-azure
+      submenu-text-azure submenu-hover-bg-lighter submenu-hover-text-azure submenu-active-bg-lightest submenu-active-text-azure">
+      <li class=""><a href="/">Home</a></li>
+      <li class=""><a href="/guide/">Guide</a></li>
+      <li class=""><a href="/starter-template/">Starter Template</a></li>
     </ul>
   </div>
 </header>
 
 <header class="header visible-sm-less shadow">
-  <div class="padding-y-20 padding-x-20 bg-azure fs-18">
-    <a class="text-lightest margin-right-5" data-toggle="sidebar-left">☰</a>
-    <span class="fw-bold">
-      
-      
-      
-      
-      
-    </span>
+  <div class="padding-y-20 padding-x-20 fs-18 bg-azure">
+    <a class="a-nocolor margin-right-5" technoart-toggle=".has-sidebar-left" technoart-toggleclasses="hide-left">☰</a>
+    <span>Admin - Home</span>
     <div class="pull-right">
-      <img alt="Technoart logo" src="/assets/img/technoart.png" style="width: 32px; height: auto; margin-top: -5px;">
+      <a href="/" class="a-nocolor">
+        <img alt="Technoart logo" src="/assets/img/technoart.png" style="width: 32px; height: auto; margin-top: -5px;">
+      </a>
     </div>
   </div>
 </header>
@@ -96,22 +79,60 @@
         <div class="sidebar-overlay" technoart-toggle=".has-sidebar-left" technoart-toggleclasses="hide-left"></div>
 
         <aside class="sidebar-left border-right border-lighter" technoart-fixedonscroll="bg-lightest">
-          
+          <div class="margin-top-20"></div>
+
+<div class="h5 text-azure padding-x-20">Admin</div>
+
+<ul class="menu-y fs-14 menu-space-y-10
+  menu-hover-bg-light menu-hover-text-azure menu-active-bg-lighter menu-active-text-azure
+  submenu-hover-bg-light submenu-hover-text-azure submenu-active-bg-lighter submenu-active-text-azure"
+  >
+  <li class="active">
+    <a href="/starter-template/admin/"><i class="fa fa-ellipsis-v margin-right-10"></i>Home</a>
+  </li>
+  <li>
+    <a><i class="fa fa-ellipsis-v margin-right-10"></i>Home Dark</a>
+  </li>
+  <li>
+    <a><i class="fa fa-ellipsis-v margin-right-10"></i>User Profile</a>
+  </li>
+  <li>
+    <a><i class="fa fa-ellipsis-v margin-right-10"></i>Inbox</a>
+  </li>
+  <li>
+    <a><i class="fa fa-ellipsis-v margin-right-10"></i>Invoice</a>
+  </li>
+  <li>
+    <a><i class="fa fa-ellipsis-v margin-right-10"></i>Pricing</a>
+  </li>
+  <li>
+    <a><i class="fa fa-ellipsis-v margin-right-10"></i>Login</a>
+  </li>
+  <li>
+    <a><i class="fa fa-ellipsis-v margin-right-10"></i>Register</a>
+  </li>
+</ul>
 
 <div class="margin-top-20"></div>
 
-<ul class="menu-y visible-sm-less fs-14 menu-space-y-10
-  menu-hover-bg-lighter menu-hover-text-azure menu-active-bg-light menu-active-text-azure
-  submenu-hover-bg-lighter submenu-hover-text-azure submenu-active-bg-lightest submenu-active-text-azure">
-  <li class=""><a href="/"><i class="fa fa-caret-right margin-right-30"></i>Home</a></li>
-  <li class=""><a href="/guide/"><i class="fa fa-caret-right margin-right-30"></i>Guide</a></li>
-  <li class=""><a href="/starter-template/"><i class="fa fa-caret-right margin-right-30"></i>Starter Template</a></li>
-</ul><div class="margin-top-30"></div>
+<div class="h5 text-azure padding-x-20">Admin</div>
+
+<ul class="menu-y fs-14 menu-space-y-10
+  menu-hover-bg-light menu-hover-text-azure menu-active-bg-lighter menu-active-text-azure
+  submenu-hover-bg-light submenu-hover-text-azure submenu-active-bg-lighter submenu-active-text-azure"
+  >
+  <li>
+    <a><i class="fa fa-ellipsis-v margin-right-10"></i>General</a>
+  </li>
+  <li>
+    <a><i class="fa fa-ellipsis-v margin-right-10"></i>Email</a>
+  </li>
+</ul>
 
         </aside>
 
         <div class="page-wrapper">
-          <div class="padding-x-30 m-padding-x-10">
+          <div class="padding-x-30 m-padding-x-15">
             <div class="border-bottom border-lighter padding-y-20">
   <span class="fw-light fs-16">Home</span>
 </div>
@@ -1088,7 +1109,7 @@
     <div technoart-backtotop="" class="bg-lighter fs-13 border-azure text-center text-azure rounded-xs padding-y-10" style="width:40px; height:40px;">▲</div>
 
 
-    <script src="/dist/js/technoart.min.js"></script>
+    <script src="/dist/js/technoart.js"></script>
 
     <script src="/assets/vendor/chart.js/Chart.bundle.min.js"></script>
   </body>

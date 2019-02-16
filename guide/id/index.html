@@ -40,43 +40,25 @@
     <div class="wrapper">
       <header class="header visible-sm-greater shadow" technoart-fixedonscroll="bg-lightest">
   <div class="header-left padding-top-10 text-center border-bottom border-azure border-thin">
-    <a href="/id/" class="a-nocolor">
+    <a href="/" class="a-nocolor">
       <img alt="Technoart logo" src="/assets/img/technoart.png" class="text-middle" style="width: auto; height: 38px;">
       <span class="margin-left-5 fs-18 text-azure text-middle">Technoart</span>
     </a>
   </div>
   <div class="header-right padding-x-30 bg-azure clearfix">
     <div class="pull-left padding-top-15 fs-20">
-      
       <span>
         
         Learning Technoart is Easy
-        
-        
         
       </span>
     </div>
     <ul class="pull-right menu-x menu-space-y-20 fs-14
       menu-hover-bg-lighter menu-hover-text-azure menu-active-bg-lightest menu-active-text-azure
       submenu-text-azure submenu-hover-bg-lighter submenu-hover-text-azure submenu-active-bg-lightest submenu-active-text-azure">
-      <li class=""><a href="/id/">Beranda</a></li>
-      <li class="active"><a href="/id/guide/">Panduan</a></li>
-      <li class=""><a href="/id/starter-template/">Starter Template</a></li>
-      <!-- <li class=""><a href="/id/gallery/">Galeri</a></li> -->
-      <!-- <li class=""><a href="/id/support/">Donasi</a></li> -->
-      <li class="has-submenu align-right"><a href="">Id</a>
-        <ul class="border-top border-azure border-thin">
-          
-            
-              <li><a href="/guide/">English</a></li>
-            
-          
-            
-              <li><a href="/id/guide/">Indonesia</a></li>
-            
-          
-        </ul>
-      </li>
+      <li class=""><a href="/">Home</a></li>
+      <li class="active"><a href="/guide/">Guide</a></li>
+      <li class=""><a href="/starter-template/">Starter Template</a></li>
     </ul>
   </div>
 </header>
@@ -86,13 +68,13 @@
     <a class="text-lightest margin-right-5" technoart-toggle=".has-sidebar-left" technoart-toggleclasses="hide-left">☰</a>
     <span>
       
-      Panduan Technoart
-      
-      
+      Technoart Definitive Guide
       
     </span>
     <div class="pull-right">
-      <img alt="Technoart logo" src="/assets/img/technoart.png" style="width: 32px; height: auto; margin-top: -5px;">
+      <a href="/" class="a-nocolor">
+        <img alt="Technoart logo" src="/assets/img/technoart.png" style="width: 32px; height: auto; margin-top: -5px;">
+      </a>
     </div>
   </div>
 </header>
@@ -106,15 +88,24 @@
 
 <div class="margin-top-20"></div>
 
+<hr class="visible-sm-less">
+
 <ul class="menu-y visible-sm-less fs-14 menu-space-y-10
-  menu-hover-bg-lighter menu-hover-text-azure menu-active-bg-light menu-active-text-azure
-  submenu-hover-bg-lighter submenu-hover-text-azure submenu-active-bg-lightest submenu-active-text-azure">
-  <li class=""><a href="/id/"><i class="fa fa-caret-right margin-right-30"></i>Beranda</a></li>
-  <li class="active"><a href="/id/guide/"><i class="fa fa-caret-right margin-right-30"></i>Panduan</a></li>
-  <li class=""><a href="/id/starter-template/"><i class="fa fa-caret-right margin-right-30"></i>Starter Template</a></li>
+  menu-hover-bg-light menu-hover-text-azure menu-active-bg-lighter menu-active-text-azure
+  submenu-hover-bg-light submenu-hover-text-azure submenu-active-bg-lighter submenu-active-text-azure">
+  <li class=""><a href="/"><i class="fa fa-caret-right margin-right-30"></i>Home</a></li>
+  <li class="active"><a href="/guide/"><i class="fa fa-caret-right margin-right-30"></i>Guide</a></li>
+  <li class=""><a href="/starter-template/"><i class="fa fa-caret-right margin-right-30"></i>Starter Template</a></li>
 </ul><hr class="visible-sm-less">
 
 <div class="h5 text-azure padding-x-20">Definitive Guide</div>
+
+<div class="form-wrapper margin-left-20 margin-right-10">
+  <select class="form-dropdown padding-x-0" id="language-version">
+    <option value="/guide/" >English Version</option>
+    <option value="/guide/id/" selected>Bahasa Indonesia Version</option>
+  </select>
+</div>
 
 <ul id="guide" class="menu-y
   menu-hover-bg-lighter menu-hover-text-azure menu-active-bg-lightest menu-active-text-azure
@@ -10845,7 +10836,7 @@
 
     <div technoart-backtotop="" class="bg-lighter fs-13 border-azure text-center text-azure rounded-xs padding-y-10" style="width:40px; height:40px;">▲</div>
 
-    <script src="/dist/js/technoart.min.js"></script>
+    <script src="/dist/js/technoart.js"></script>
 <script src="/assets/vendor/anchorjs/anchor.min.js"></script>
       <script src="/assets/vendor/clipboard.js/clipboard.min.js"></script>
       <script src="/assets/js/docs.min.js"></script>

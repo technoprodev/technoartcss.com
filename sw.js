@@ -261,11 +261,11 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "assets/js/docs.min.js",
-    "revision": "a3fb6067d1351998ea5434e7d5ec7ad6"
+    "revision": "8b00bce2eedff101b08382a48b517dec"
   },
   {
     "url": "assets/js/src/application.js",
-    "revision": "1878024d490c86280a92eaf7629e49dc"
+    "revision": "c13e00dd5f11bbdbe66a55278aaef3c3"
   },
   {
     "url": "assets/js/src/pwa.js",
@@ -401,103 +401,23 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "dist/js/technoart.js",
-    "revision": "af9f1087e450cd0f38e7b098da4242ed"
+    "revision": "f498a79480ee80fd870f7205fe0d2640"
   },
   {
     "url": "dist/js/technoart.min.js",
     "revision": "ef4e11112eab07fd9cfc57ea2d79a63e"
   },
   {
+    "url": "guide/id/index.html",
+    "revision": "a7374e8466604382bc836c9859e8a24c"
+  },
+  {
     "url": "guide/index.html",
-    "revision": "1d38662723935e988051d4d38979febf"
-  },
-  {
-    "url": "id/guide/index.html",
-    "revision": "11277af006e715cc0417437411bf3fe0"
-  },
-  {
-    "url": "id/index.html",
-    "revision": "649d37ae89791af59bcf12910c15f455"
-  },
-  {
-    "url": "id/starter-template/admin/index.html",
-    "revision": "add63b89927f46ffc971ebbee519af92"
-  },
-  {
-    "url": "id/starter-template/general/about-us-1/index.html",
-    "revision": "388a299870153d15a91160e312148900"
-  },
-  {
-    "url": "id/starter-template/general/about-us-2/index.html",
-    "revision": "b2a56dd1ca8516fe718ac6afe3e67da7"
-  },
-  {
-    "url": "id/starter-template/general/cheatsheet/index.html",
-    "revision": "eeae7a049224214612164fac551a14ca"
-  },
-  {
-    "url": "id/starter-template/general/faq-1/index.html",
-    "revision": "67bc6bd739801e9e27a637420a65f45a"
-  },
-  {
-    "url": "id/starter-template/general/faq-2/index.html",
-    "revision": "ba6c0797892fd147b8d6f9a2896e379b"
-  },
-  {
-    "url": "id/starter-template/general/home-2/index.html",
-    "revision": "86daa9b30cda0fe34a4e3f8c1dc3540f"
-  },
-  {
-    "url": "id/starter-template/general/home-3/index.html",
-    "revision": "d260cb73ea3eaf81acf98421974bad83"
-  },
-  {
-    "url": "id/starter-template/general/home-4/index.html",
-    "revision": "e867df8d3a43b60022d1d0f0ace453f4"
-  },
-  {
-    "url": "id/starter-template/general/home-5/index.html",
-    "revision": "3a0ae6ab6570791c02dd83a21f2b48cf"
-  },
-  {
-    "url": "id/starter-template/general/index.html",
-    "revision": "63d12a6851a9b777dc2fc33a30fc885d"
-  },
-  {
-    "url": "id/starter-template/general/our-team-1/index.html",
-    "revision": "7af73f71128d031add79483b708abdbd"
-  },
-  {
-    "url": "id/starter-template/general/portfolio-1/index.html",
-    "revision": "fe4b7e97c608326669e360058d2c7b0d"
-  },
-  {
-    "url": "id/starter-template/general/portfolio-2/index.html",
-    "revision": "23b1dcc5c6d4641d255c74618e03f73e"
-  },
-  {
-    "url": "id/starter-template/general/pricing-1/index.html",
-    "revision": "cf62eb8dd88d32995c98265b376ccdce"
-  },
-  {
-    "url": "id/starter-template/general/pricing-2/index.html",
-    "revision": "eef1fedc432f02661dac4006f5f78492"
-  },
-  {
-    "url": "id/starter-template/general/service-1/index.html",
-    "revision": "64ca9291f4184ce3f8ca7b91bd08d073"
-  },
-  {
-    "url": "id/starter-template/general/service-2/index.html",
-    "revision": "631f9b54b0948807f4dffdee151a97fa"
-  },
-  {
-    "url": "id/starter-template/index.html",
-    "revision": "308fdc65ca8ab68346e44a68875cc366"
+    "revision": "d6c9b6aae395261b757b7bf2c63cd149"
   },
   {
     "url": "index.html",
-    "revision": "8b38e1c367f96ae9b76f47cb31414647"
+    "revision": "042830c9f2a65f81c7593d8d5af33bc2"
   },
   {
     "url": "redirects.json",
@@ -505,78 +425,78 @@ workbox.precaching.precacheAndRoute([
   },
   {
     "url": "starter-template/admin/index.html",
-    "revision": "0f2b93aee9e136eb2d5a495db02d6f6e"
+    "revision": "9a7df382d13c6eb15565aaf3d3c5c1d2"
   },
   {
     "url": "starter-template/general/about-us-1/index.html",
-    "revision": "359366fc40e06ca7a00c6ee35a165d59"
+    "revision": "666d8b160f2ca3775ea91dfeb8831166"
   },
   {
     "url": "starter-template/general/about-us-2/index.html",
-    "revision": "3e7280835e3e5cb8f422fe6a4307b0c4"
+    "revision": "114df9501860c641b5042ba3670df80c"
   },
   {
     "url": "starter-template/general/cheatsheet/index.html",
-    "revision": "ba08f11670426c8aeb233d4d04a4975f"
+    "revision": "2d8c821584e3857841db1a9b72b02efc"
   },
   {
     "url": "starter-template/general/faq-1/index.html",
-    "revision": "586940b7a0e9a6dc191cb3be32d2f696"
+    "revision": "c9cd27ba63fec2cef9a63b43c0f8ba10"
   },
   {
     "url": "starter-template/general/faq-2/index.html",
-    "revision": "c3716277e9852c3bd1d81ef7674d753f"
+    "revision": "0706dcfb387fc5a7bc7ce4366f122f6b"
   },
   {
     "url": "starter-template/general/home-2/index.html",
-    "revision": "409adcc790b5eb2236260306036c467a"
+    "revision": "900495169e55b26547c8dce82c2c13c6"
   },
   {
     "url": "starter-template/general/home-3/index.html",
-    "revision": "7eff501ad4291f34922c0b7c13c3212c"
+    "revision": "40357a46efbf14245f8b92defa33a31f"
   },
   {
     "url": "starter-template/general/home-4/index.html",
-    "revision": "afeef98849855f863944624e5eab442f"
+    "revision": "679c33f8e8bbdaefcc61c2a2ba8d9dc2"
   },
   {
     "url": "starter-template/general/home-5/index.html",
-    "revision": "17d81c21dce4a0b29bc4385f4169cdae"
+    "revision": "23d58aa3dfe441a15c9d47f2463dba25"
   },
   {
     "url": "starter-template/general/index.html",
-    "revision": "0f7c4ba172c443c42eef0f1b69416838"
+    "revision": "9f2589a24871c0ad62f8174f886be5de"
   },
   {
     "url": "starter-template/general/our-team-1/index.html",
-    "revision": "bf95482ada3dfb4c8a8ade961551c2dd"
+    "revision": "a76957d04ff7df47c1face6c54129b47"
   },
   {
     "url": "starter-template/general/portfolio-1/index.html",
-    "revision": "2ea41cd34f2f135ef6e2fb6af58692d6"
+    "revision": "c21ad8cb86e710deb8a9c8dfbb811494"
   },
   {
     "url": "starter-template/general/portfolio-2/index.html",
-    "revision": "670032d99d36bd93cf0782ca7797ee4a"
+    "revision": "58e4f1b454edfe0bc48e795cd1384316"
   },
   {
     "url": "starter-template/general/pricing-1/index.html",
-    "revision": "41f9f10991b8122c1e9a32f68b4b6fe9"
+    "revision": "a56fb76e659dccd41de9716bf328b4fc"
   },
   {
     "url": "starter-template/general/pricing-2/index.html",
-    "revision": "0b2371cc93a64ac41994fa163625f60f"
+    "revision": "65aacfe9af991a8fd2ee51bfc6047097"
   },
   {
     "url": "starter-template/general/service-1/index.html",
-    "revision": "2096eb7c5a0494d554302b4133fb84ec"
+    "revision": "d770c9a4cebe505e27357f13cb6b205c"
   },
   {
     "url": "starter-template/general/service-2/index.html",
-    "revision": "7135e0eae9a6f3ecf6c367f35be34976"
+    "revision": "8c2185d02881b5ac30c564cf8328c407"
   },
   {
     "url": "starter-template/index.html",
-    "revision": "1b06f57f3fbd67a3642ff873532203e6"
+    "revision": "63323ce2a220380e478ccfd29a7d00a8"
   }
 ])
